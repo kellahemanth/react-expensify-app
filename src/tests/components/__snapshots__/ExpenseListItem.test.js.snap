@@ -2,21 +2,21 @@
 
 exports[`should render ExpenseListItem with one expense 1`] = `
 <div>
-  <h3>
-    <Link
-      replace={false}
-      to="edit/1"
-    >
+  <Link
+    replace={false}
+    to="edit/1"
+  >
+    <h3>
       Gum
-    </Link>
-  </h3>
+    </h3>
+  </Link>
   <p>
     Amount: 
-    450
+    ₹450.00
   </p>
   <p>
-    Created At: 
-    0
+    Created: 
+    Jan 1st, 1970
   </p>
 </div>
 `;
