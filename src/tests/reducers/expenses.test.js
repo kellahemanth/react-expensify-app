@@ -72,3 +72,11 @@ test('should not update expenses if id not found', () => {
     expect(result).toEqual(expenses);
 });
 
+test('should set expenses', () => {
+    const result = expensesReducer(undefined, {
+        type: 'SET_EXPENSES',
+        expenses
+    });
+    expect(result).toEqual(expenses);
+});
+
