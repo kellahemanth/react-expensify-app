@@ -77,3 +77,7 @@ database.ref('isSingle').remove().then(() => {
 }).catch((error) => {
     console.log('Failed: ',error);
 });
+
+const now = moment();
+console.log(now);
+console.log(now.format('MMM Do, YYYY'))
